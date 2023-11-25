@@ -1,0 +1,22 @@
+@import "../common files/mixinFiles";
+
+.all-blog{
+    background-color: antiquewhite;
+
+    .blog-heading{
+        @include centre-div;
+        background-color: blanchedalmond;
+        padding: 1.5%;
+    
+        & h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: orangered;
+            text-shadow: 2px 2px brown;
+            letter-spacing: 4px;
+            word-spacing: 6px;
+        }
+    }
+}
+

@@ -1,0 +1,46 @@
+@import "variables";
+
+@mixin update-write-styles{
+    padding: 2% 7%;
+
+    & h1{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    & label{
+        font-size: 2vw;
+        color: rgb(116, 54, 54);
+    }
+
+    & select{
+        width: 20vw;
+        height: 3vw;
+        margin-top: 1.2vw;
+        font-size: 1.35vw;
+    }
+
+    & option{
+        font-size: 1.35vw;
+    }
+
+    & input{
+        width: 100%;
+        height: 3vw;
+        margin-top: 1.2vw;
+    }
+
+    .react-quill{
+        margin-top: 1.2vw;
+    }
+
+    .success{
+        color: $success-message-color;
+        padding-top: 1%;
+    }
+
+    .error{
+        color: $error-message-color;
+        padding-top: 1%;
+    }
+}

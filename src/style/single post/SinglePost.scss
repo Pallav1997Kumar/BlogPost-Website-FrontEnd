@@ -1,0 +1,24 @@
+.single-post{
+    display: flex;
+    width: 100%;
+    @media(max-width: 600px){
+        flex-direction: column;
+    }
+
+    .post-section{
+        width: 65%;
+        padding-right: 2%;
+        @media(max-width: 600px){
+            width: 100%;
+        }
+    }
+
+    .comment-section{
+        width: 35%;
+        border-left: 2.5px solid red;
+        background-color: darkgoldenrod;
+        @media(max-width: 600px){
+            width: 100%;
+        }
+    }
+}
